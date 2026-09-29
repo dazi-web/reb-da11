@@ -1,0 +1,31 @@
+{
+    "name": "dazi-web/reb-da11",
+    "description": "Writer and reader for REB-VB 23.003 (Ausgabe 2009) DA11 files: quantity calculations (Aufmaß) in free notation (FN 91).",
+    "type": "library",
+    "keywords": [
+        "REB",
+        "23.003",
+        "DA11",
+        "Aufmass",
+        "GAEB",
+        "Bauabrechnung"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DaziWeb\\RebDa11\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DaziWeb\\RebDa11\\Tests\\": "tests/"
+        }
+    }
+}
