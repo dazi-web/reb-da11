@@ -7,6 +7,10 @@ calculations (Aufmaß) between contractor and client / AVA software.
 Plain PHP 8.3+, no framework, no dependencies besides `ext-mbstring`.
 License: MIT.
 
+Deutsch: PHP-Bibliothek zum **Schreiben und Lesen von DA11-Dateien** (Aufmaß bzw.
+Mengenberechnung, REB-VB 23.003, Ausgabe 2009) für die elektronische
+Bauabrechnung zwischen Auftragnehmer, Auftraggeber und AVA-Software.
+
 ## What it does
 
 - **DA 00** header: order (8 characters, optional), procedure `23.003`,
