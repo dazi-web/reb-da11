@@ -4,11 +4,18 @@
     "type": "library",
     "keywords": [
         "REB",
+        "REB-VB",
         "23.003",
         "DA11",
-        "Aufmass",
+        "FN91",
         "GAEB",
-        "Bauabrechnung"
+        "AVA",
+        "Aufmass",
+        "Aufmaß",
+        "Mengenberechnung",
+        "Bauabrechnung",
+        "quantity-survey",
+        "php"
     ],
     "license": "MIT",
     "require": {
